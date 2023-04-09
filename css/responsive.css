@@ -1,0 +1,37 @@
+
+@media only screen and (max-width:800px){
+.header .menu{
+  display: none;
+}
+.header .logo{
+  padding-bottom:20px;
+}
+.mobile-menu span{
+  display: block;
+  z-index:4;
+}
+}
+@media only screen and (max-width:480px){
+.footer .span_1_of_4{
+  margin-top:20%;
+}
+.mobile-menu span{
+  margin-top: -4.5rem;
+}
+.sticky .mobile-menu span {
+    margin-top: -45px;
+}
+.package{
+  margin-top: -33rem;
+  height: 850px;
+}
+.room{
+  height: 1582px;
+}
+}
+
+@media only screen and (max-width:397px){
+  .footer .span_1_of_4 {
+      margin-bottom: 10%;
+  }
+}
